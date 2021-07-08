@@ -39,7 +39,7 @@
 							echo '<div class="col-md-6 col-sm-6 col-xs-12">';
 						}
 					?>
-<a href="?p=hoster&c=remove&n=<?= $h ?>&t=<?= $_SESSION["csfrToken"] ?>"><i class="fa fa-times" style="color:darkred;"></i></a> <?= $h ?><br /> 
+<a href="?p=hoster&c=remove&n=<?= $h ?>&t=<?= $_SESSION["csrfToken"] ?>"><i class="fa fa-times" style="color:darkred;"></i></a> <?= $h ?><br /> 
                     <?php 
 						$i++;
 						if($i == $split OR $i == $count+1){
